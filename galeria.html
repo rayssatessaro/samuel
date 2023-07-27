@@ -1,1315 +1,1694 @@
 <!doctype html>
 <html lang="pt-br">
-
+    <head>
+    <!-- Links para as bibliotecas Fancybox e Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+      
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Galeria</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galeria</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-
 <body>
-    <header class="p-3 text-bg-dark">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                        <use xlink:href="#bootstrap"></use>
-                    </svg>
-                </a>
+<header class="p-3 text-bg-dark">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="home.html" class="nav-link px-2 text-white">HOME</a></li>
                     <li><a href="videos.html" class="nav-link px-2 text-white">VIDEOS</a></li>
                     <li><a href="galeria.html" class="nav-link px-2 text-white">GALERIA</a></li>
                     <li><a href="jogos.html" class="nav-link px-2 text-white">JOGOS</a></li>
-                    <li><a href="comidas.html" class="nav-link px-2 text-white">LANCHES</a></li>
+                 
 
                 </ul>
             </div>
         </div>
     </header>
     <main>
-        <div class="album py-5 bg-light">
-            <div class="container">
-
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-<div class="col">
+<div class="album py-5 bg-light">
+<div class="container">              
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2 swiper-wrapper">
+          
+<!-- Adicione a classe ' col swiper-slide' para cada col com o card -->
+<div class=" col swiper-slide">
+<a href="A46.jpeg" data-fancybox="gallery">
 <div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A46.jpeg" />
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A46.jpeg" />
 <div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 28 de março de 2023</p>
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 28 de março de 2023</p>
 </div>
 </div>
+</a>
 </div>
-<div class="col">
+          
+<div class=" col swiper-slide">
+<a href="A47.jpeg" data-fancybox="gallery">
 <div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A47.jpeg" />
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A47.jpeg" />
 <div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 28 de março de 2023</p>
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 28 de março de 2023</p>
 </div>
 </div>
+</a>
 </div>
-<div class="col">
+          
+<div class=" col swiper-slide">
+<a href="A48.jpeg" data-fancybox="gallery">
 <div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A48.jpeg" />
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A48.jpeg" />
 <div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 28 de março de 2023</p>
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 28 de março de 2023</p>
 </div>
 </div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A49.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 05 de abril de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A50.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A51.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A52.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A53.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A54.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A55.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A56.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 08 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A57.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 08 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A58.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 08 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A87.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 08 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A59.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 09 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A37.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A38.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A60.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 14 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A61.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 14 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A62.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A63.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A64.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de abril de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A65.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 01 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A66.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 01 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A39.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A40.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A42.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A41.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A67.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A68.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-    <div class="card shadow-sm">
-    <img class="bd-placeholder-img card-img-top" width="100%" height="500"
-    src="A78.jpeg" />
-    <div class="card-body">
-        <p class="text-center card-text h1"
-        style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-        </div>
-    </div>
-    </div>
-    <div class="col">
-        <div class="card shadow-sm">
-        <img class="bd-placeholder-img card-img-top" width="100%" height="500"
-        src="A75.jpeg" />
-        <div class="card-body">
-            <p class="text-center card-text h1"
-            style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-            </div>
-        </div>
-        </div>
-        <div class="col">
-            <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="500"
-            src="A77.jpeg" />
-            <div class="card-body">
-                <p class="text-center card-text h1"
-                style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-                </div>
-            </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="500"
-                src="A79.jpeg" />
-                <div class="card-body">
-                    <p class="text-center card-text h1"
-                    style="font-size:16px; font-family: Courier New, monospace	">Dia 02 de maio de 2023</p>
-                    </div>
-                </div>
-                </div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A43.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A44.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A45.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A69.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-    <div class="card shadow-sm">
-    <img class="bd-placeholder-img card-img-top" width="100%" height="500"
-    src="A84.jpeg" />
-    <div class="card-body">
-        <p class="text-center card-text h1"
-        style="font-size:16px; font-family: Courier New, monospace	">Dia 04 de maio de 2023</p>
-        </div>
-    </div>
-    </div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A70.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 05 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A71.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 05 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A72.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 05 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A74.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 05 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A80.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 05 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A82.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 05 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A83.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 05 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A81.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A73.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A76.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-    <div class="card shadow-sm">
-    <img class="bd-placeholder-img card-img-top" width="100%" height="500"
-    src="A86.jpeg" />
-    <div class="card-body">
-        <p class="text-center card-text h1"
-        style="font-size:16px; font-family: Courier New, monospace	">Dia 10 de maio de 2023</p>
-        </div>
-    </div>
-    </div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A85.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 11 de maio de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A20.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A21.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A22.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A23.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A35.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A36.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 03 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A34.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 04 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A88.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A89.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 06 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A30.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 08 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A31.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 08 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A19.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 09 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A28.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 10 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A29.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 10 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A24.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 10 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A25.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 10 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A26.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 10 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A27.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 10 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A1.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 10 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A32.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 11 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="F1.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 12 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A16.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A17.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A18.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A33.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A15.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 14 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="F3.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 16 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A5.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A6.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A7.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A8.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A9.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A10.jpeg" />
-<div class="card-body">
-    <p class="text-center card-text h1"
-    style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-    </div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A11.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A12.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A13.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A14.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de junho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A121.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
- style="font-size:16px; font-family: Courier New, monospace	">Dia 12 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A98.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 12 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A123.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A124.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A125.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 13 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A126.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 14 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A112.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A111.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A106.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A104.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A99.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A100.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A101.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A102.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A103.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A105.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A94.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A95.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A96.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A97.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 15 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A107.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A108.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A109.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A110.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A113.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A114.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A115.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A116.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A134.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A131.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A133.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A132.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A117.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A118.jpeg" />
-<div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
-</div>
-</div>
+</a>
 </div>
 
-<div class="col">
+<div class=" col swiper-slide">
+<a href="A49.jpeg" data-fancybox="gallery">
 <div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A120.jpeg" />
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A49.jpeg" />
 <div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 05 de abril de 2023</p>
 </div>
 </div>
+</a>
 </div>
-<div class="col">
+
+<div class=" col swiper-slide">
+<a href="A50.jpeg" data-fancybox="gallery">
 <div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A127.jpeg" />
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A50.jpeg" />
 <div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de abril de 2023</p>
 </div>
 </div>
+</a>
 </div>
-<div class="col">
+
+<div class=" col swiper-slide">
+<a href="A51.jpeg" data-fancybox="gallery">
 <div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A128.jpeg" />
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A51.jpeg" />
 <div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de abril de 2023</p>
 </div>
 </div>
+</a>
 </div>
-<div class="col">
+
+<div class=" col swiper-slide">
+<a href="A52.jpeg" data-fancybox="gallery">
 <div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A129.jpeg" />
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A52.jpeg" />
 <div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 17 de julho de 2023</p>
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de abril de 2023</p>
 </div>
 </div>
+</a>
 </div>
-<div class="col">
+
+<div class=" col swiper-slide">
+<a href="A53.jpeg" data-fancybox="gallery">
 <div class="card shadow-sm">
-<img class="bd-placeholder-img card-img-top" width="100%" height="500"
-src="A90.jpeg" />
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A53.jpeg" />
 <div class="card-body">
-<p class="text-center card-text h1"
-style="font-size:16px; font-family: Courier New, monospace	">Dia 18 de julho de 2023</p>
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A54.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A54.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A55.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A55.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F11.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F11.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 08 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A58.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A58.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 08 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A57.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A57.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 08 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A56.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A56.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 08 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A87.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A87.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 08 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A59.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A59.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 09 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F12.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F12.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 09 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F13.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F13.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A37.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A37.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A60.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A60.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 14 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A140.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A140.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 14 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A62.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A62.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A63.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A63.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A64.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A64.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de abril de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A65.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A65.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 01 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A66.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A66.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 01 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F10.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F10.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A39.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A39.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A40.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A40.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A42.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A42.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A41.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A41.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A43.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A43.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A67.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A67.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A68.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A68.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A78.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A78.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A75.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A75.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A77.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A77.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A79.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A79.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 02 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A44.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A44.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A45.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A45.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A69.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A69.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A84.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A84.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 04 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A70.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A70.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 05 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class=" col swiper-slide">
+<a href="A83.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A83.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 05 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A71.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A71.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 05 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A74.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A74.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 05 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A80.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A80.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 05 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A82.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A82.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 05 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A72.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A72.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 05 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A81.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A81.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A73.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A73.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A76.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A76.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A86.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A86.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 10 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A85.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A85.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 11 de maio de 2023</p>
+</div>
+</div>
+</a>
+</div>
+ 
+
+<div class=" col swiper-slide">
+<a href="A20.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A20.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A21.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A21.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A22.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A22.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A23.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A23.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A35.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A35.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A36.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A36.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F7.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F7.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 03 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F9.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F9.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 04 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A34.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A34.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 04 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A88.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A88.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A89.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A89.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 06 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F4.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F4.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 08 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A30.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A30.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 08 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A31.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A31.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 08 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A19.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A19.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 09 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A28.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A28.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 10 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A29.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A29.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 10 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A26.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A26.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 10 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A25.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A25.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 10 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A24.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A24.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 10 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A1.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A1.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 10 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A2.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A2.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 11 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A3.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A3.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 11 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A4.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A4.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 11 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A32.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A32.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 11 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F5.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F5.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 11 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F6.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F6.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 11 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F1.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F1.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 12 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A33.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A33.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A16.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A16.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A17.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A17.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A18.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A18.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A15.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A15.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 14 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="F3.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="F3.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 16 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A5.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A5.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A6.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A6.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A7.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A7.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A8.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A8.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A9.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A9.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A10.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A10.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A11.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A11.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A12.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A12.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A13.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A13.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A14.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A14.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de junho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A121.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A121.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 12 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A98.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A98.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 12 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A122.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A122.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A123.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A123.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A124.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A124.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A125.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A125.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 13 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A126.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A126.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 14 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A136.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A136.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 14 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A137.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A137.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 14 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A103.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A103.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A111.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A111.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A106.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A106.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A112.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A112.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A101.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A101.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A102.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A102.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A100.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A100.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A104.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A104.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A99.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A99.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A105.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A105.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A94.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A94.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A96.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A96.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A97.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A97.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 15 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A138.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A138.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 16 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A93.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A93.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A107.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A107.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A109.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A109.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A108.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A108.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A110.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A110.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A113.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A113.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A114.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A114.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A115.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A115.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A139.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A139.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A131.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A131.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A133.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A133.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A116.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A116.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A134.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A134.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A132.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A132.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A117.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A117.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A118.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A118.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A120.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A120.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A127.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A127.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A128.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A128.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A129.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A129.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 17 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A90.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A90.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 18 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A92.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A92.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 19 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A142.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A142.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 19 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A91.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A91.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 20 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class=" col swiper-slide">
+<a href="A141.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A141.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 20 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
+
+<div class=" col swiper-slide">
+<a href="A135.jpeg" data-fancybox="gallery">
+<div class="card shadow-sm">
+<img class="bd-placeholder-img card-img-top" width="100%" height="500" src="A135.jpeg" />
+<div class="card-body">
+<p class="text-center card-text h1" style="font-size:16px; font-family: Courier New, monospace">Dia 23 de julho de 2023</p>
+</div>
+</div>
+</a>
+</div>
+
 </div>
 </div>
 </div>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
- integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
- crossorigin="anonymous"></script>
+
+<!-- No final do body -->
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  // Inicializar o Swiper para criar o slider com setas
+var swiper = new Swiper('.swiper-container', {
+slidesPerView: 1,
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+});
+
+// Inicializar o Fancybox para o zoom nas imagens
+$('[data-fancybox="gallery"]').fancybox({
+buttons: [
+"zoom",
+"close"
+],
+loop: true
+});
+</script>
+
 </body>
 
 </html>
